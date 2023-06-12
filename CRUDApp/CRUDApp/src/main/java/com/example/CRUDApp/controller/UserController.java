@@ -3,13 +3,13 @@ package com.example.CRUDApp.controller;
 import com.example.CRUDApp.entity.User;
 import com.example.CRUDApp.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
+@RequestMapping("/Users")
 public class UserController {
     /*
      * post methods to handle creating a user(s)
