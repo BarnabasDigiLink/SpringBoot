@@ -22,9 +22,7 @@ public class UserService {
     }
     //create multiple users
     public List<User> createUsers(List<User> users) {
-        /*
-        * todo multiple users
-        * */
+//        users.getClass(encoder.encode(users.getPassword()));
         return userRepository.saveAll(users);
     }
 
