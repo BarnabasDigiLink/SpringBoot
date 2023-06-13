@@ -1,4 +1,4 @@
-package com.example.CRUDApp.entity;
+package com.example.crudapp.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

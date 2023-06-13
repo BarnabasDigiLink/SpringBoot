@@ -1,7 +1,7 @@
-package com.example.CRUDApp.controller;
+package com.example.crudapp.controller;
 
-import com.example.CRUDApp.entity.User;
-import com.example.CRUDApp.service.UserService;
+import com.example.crudapp.entity.User;
+import com.example.crudapp.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

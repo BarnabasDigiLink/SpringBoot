@@ -1,9 +1,8 @@
-package com.example.CRUDApp.service;
+package com.example.crudapp.service;
 
-import com.example.CRUDApp.dao.UserRepository;
-import com.example.CRUDApp.entity.User;
+import com.example.crudapp.dao.UserRepository;
+import com.example.crudapp.entity.User;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
